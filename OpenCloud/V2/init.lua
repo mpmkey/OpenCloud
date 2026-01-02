@@ -1,3 +1,8 @@
+local require = function(a) return loadstring(game:HttpGet(a))() end
+
+
+
+
 local module = {}
  
 module.proto = {}
